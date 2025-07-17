@@ -20,7 +20,7 @@ window.onload = function () {
     return Math.floor(Math.random() * arrLength);
   };
 
-  // generate excuse function
+  // generate excuse fn
   const generateExcuse = ({ who, action, what, when }) => {
     let result = `${who[generateRandomNumber(who.length)]} ${
       action[generateRandomNumber(action.length)]
