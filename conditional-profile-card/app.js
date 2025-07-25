@@ -5,7 +5,7 @@ function render(variables = {}) {
             ${cover}
           <img src="${variables.avatarURL}" class="photo" />
           <h1>${variables.name || 'Name'} ${
-    variables.lastName || 'Surname'
+    variables.lastName || 'Last Name'
   }</h1>
           <h2>${variables.role || ''}</h2>
           <h3>${variables.city || ''}, ${variables.country || ''}</h3>
