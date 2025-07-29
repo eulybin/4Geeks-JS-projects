@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'JqkasWild';
+  src: url('./assets/JqkasWild-w1YD6.ttf') format('truetype');
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -11,6 +16,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  font-family: 'JqkasWild';
 }
 
 .card {
@@ -18,4 +25,22 @@ body {
   width: 400px;
   background-color: #f8f8f8;
   border-radius: 18px;
+  box-shadow: 2px 2px 25px rgb(33, 33, 33);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+/* .spade {
+  
+} */
+
+/* .heart {
+}
+
+.club {
+}
+
+.diamond {
+} */
