@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+  background-image: url(./assets/table.avif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
