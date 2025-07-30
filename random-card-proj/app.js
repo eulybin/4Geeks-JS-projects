@@ -9,6 +9,6 @@ window.onload = function () {
   const mainDiv = document.querySelector('.card');
   const printRandomCardNumber = document.createElement('span');
   printRandomCardNumber.textContent = randomCardNumber;
-  printRandomCardNumber.style.fontSize = '128px';
+  printRandomCardNumber.style.fontSize = '158px';
   mainDiv.appendChild(printRandomCardNumber);
 };
