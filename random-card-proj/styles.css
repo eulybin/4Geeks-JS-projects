@@ -26,21 +26,30 @@ body {
   background-color: #f8f8f8;
   border-radius: 18px;
   box-shadow: 2px 2px 25px rgb(33, 33, 33);
+  position: relative;
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* .spade {
-  
-} */
-
-/* .heart {
+.heart {
+  display: block;
 }
 
-.club {
+.first-heart {
+  color: #d11f00;
+  font-size: 80px;
+  position: absolute;
+  top: 30px;
+  left: 20px;
 }
 
-.diamond {
-} */
+.second-heart {
+  color: #d11f00;
+  font-size: 80px;
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  transform: rotate(180deg);
+}
