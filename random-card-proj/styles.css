@@ -16,6 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 
   font-family: 'JqkasWild';
 }
@@ -24,6 +25,7 @@ body {
   /* ratio matches standard poker card */
   height: 570px;
   width: 407px;
+  margin-bottom: 40px;
   background-color: #eae9ed;
   border-radius: 18px;
   box-shadow: 2px 2px 25px rgb(33, 33, 33);
