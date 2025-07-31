@@ -21,9 +21,10 @@ body {
 }
 
 .card {
+  /* ratio matches standard poker card */
   height: 570px;
-  width: 400px;
-  background-color: #f8f8f8;
+  width: 407px;
+  background-color: #eae9ed;
   border-radius: 18px;
   box-shadow: 2px 2px 25px rgb(33, 33, 33);
   position: relative;
@@ -42,7 +43,7 @@ body {
   font-size: 80px;
   position: absolute;
   top: 30px;
-  left: 20px;
+  left: 25px;
 }
 
 .second-heart {
@@ -50,6 +51,6 @@ body {
   font-size: 80px;
   position: absolute;
   bottom: 30px;
-  right: 20px;
+  right: 25px;
   transform: rotate(180deg);
 }
