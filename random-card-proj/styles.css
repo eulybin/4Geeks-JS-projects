@@ -40,7 +40,7 @@ body {
 
 .first-heart {
   color: #d11f00;
-  font-size: 80px;
+  font-size: 78px;
   position: absolute;
   top: 30px;
   left: 25px;
@@ -48,7 +48,7 @@ body {
 
 .second-heart {
   color: #d11f00;
-  font-size: 80px;
+  font-size: 78px;
   position: absolute;
   bottom: 30px;
   right: 25px;
@@ -56,7 +56,7 @@ body {
 }
 
 .diamond {
-  display: block;
+  display: none;
 }
 
 .first-diamond {
