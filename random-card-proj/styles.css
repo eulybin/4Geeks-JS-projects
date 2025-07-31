@@ -35,7 +35,7 @@ body {
 }
 
 .heart {
-  display: block;
+  display: none;
 }
 
 .first-heart {
@@ -49,6 +49,69 @@ body {
 .second-heart {
   color: #d11f00;
   font-size: 80px;
+  position: absolute;
+  bottom: 30px;
+  right: 25px;
+  transform: rotate(180deg);
+}
+
+.diamond {
+  display: block;
+}
+
+.first-diamond {
+  color: #db1825;
+  font-size: 84px;
+  position: absolute;
+  top: 30px;
+  left: 25px;
+}
+
+.second-diamond {
+  color: #db1825;
+  font-size: 84px;
+  position: absolute;
+  bottom: 30px;
+  right: 25px;
+  transform: rotate(180deg);
+}
+
+.spade {
+  display: none;
+}
+
+.first-spade {
+  color: #161515;
+  font-size: 80px;
+  position: absolute;
+  top: 30px;
+  left: 25px;
+}
+
+.second-spade {
+  color: #161515;
+  font-size: 80px;
+  position: absolute;
+  bottom: 30px;
+  right: 25px;
+  transform: rotate(180deg);
+}
+
+.club {
+  display: none;
+}
+
+.first-club {
+  color: #121216;
+  font-size: 84px;
+  position: absolute;
+  top: 30px;
+  left: 25px;
+}
+
+.second-club {
+  color: #121216;
+  font-size: 84px;
   position: absolute;
   bottom: 30px;
   right: 25px;
